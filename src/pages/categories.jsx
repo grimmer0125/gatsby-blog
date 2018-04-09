@@ -19,7 +19,7 @@ class CategoriesRoute extends React.Component {
               <h1 className="page__title">Categories</h1>
               <div className="page__body">
                 <div className="categories">
-                  <ul className="categories__list">
+                  {/* <ul className="categories__list">
                     {categories.map(category => (
                       <li key={category.fieldValue} className="categories__list-item">
                         <Link to={`/categories/${kebabCase(category.fieldValue)}/`} className="categories__list-item-link">
@@ -27,7 +27,7 @@ class CategoriesRoute extends React.Component {
                         </Link>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
