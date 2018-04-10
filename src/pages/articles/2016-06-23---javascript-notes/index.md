@@ -1,12 +1,12 @@
 ---
-title: "JavaScript notes"
+title: "My JavaScript e-book"
 date: "2016-06-23"
 layout: post
 tags:
   - JavaScript
 ---
 
-Link: https://grimmer0125.gitbooks.io/learning-javascript/content/
+e-book Link: https://grimmer0125.gitbooks.io/learning-javascript/content/
 
 ### Notes (depreciated, use the above link):
 

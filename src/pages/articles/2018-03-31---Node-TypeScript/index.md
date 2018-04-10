@@ -5,7 +5,7 @@ layout: post
 tags:
 - IDE
 - JavaScript
-- typescript
+- TypeScript
 - Node.js
 - Atom
 - VS Code
