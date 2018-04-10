@@ -4,7 +4,7 @@ module.exports = {
     title: 'Blog by Grimmer',
     subtitle: 'I am a true seeker.',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'grimmer',
     menu: [
       {
         label: 'Articles',
