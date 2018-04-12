@@ -34,6 +34,11 @@ Gatsby 是 React + GraphQL based的網站/blog生成器. 可以用 React方式�
 6. `Gatsby` local dev時, 有起一個 GraphQL server, 故可使用 `GraphiQL` 去測試 每個頁面使用到 GraphQL query部份. ref:  https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql,
 7. deploy時則會先把 GraphQL的資料 bundle到static site裡, 無 GraphQL server.
 
+### 其他可以考慮用的 blog template(starter)
+
+1. https://github.com/gatsbyjs/gatsby-starter-blog
+2. https://github.com/AustinGreen/gatsby-starter-netlify-cms
+
 ### Prepare Steps:
 
 1. clone https://github.com/grimmer0125/gatsby-blog 或是 照 https://github.com/alxshelepenok/gatsby-starter-lumen#getting-started 輸入 `gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen`
