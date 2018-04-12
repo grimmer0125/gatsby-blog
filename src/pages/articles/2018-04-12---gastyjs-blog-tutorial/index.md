@@ -43,12 +43,11 @@ Gatsby 是 React + GraphQL based的網站/blog生成器. 可以用 React方式�
 
 1. 在 `pages/articles/` 下新增新文章的folder. folder檔名需要是`日期---folderName`, 無`---`的話 `gatsby-node.js`會parse exception.
 2. 新增 markdown 語法的blog文章檔案. 及其會用到的assets在同一個folder.
-3. Markdown文章需包含以下等 `Metadata`, title, date, layout. tags 則不確定, 待check,
-4. 至少要有一篇文章要有 category, description(不確定,待check), draft 這些 `Metadata`. e.g. `category: "Objective-C"`, `description: ""description`, `draft: false`. 不然會 parse exception.
+3. Markdown的 `Metadata`需包含以及需注意事項: [https://github.com/grimmer0125/gatsby-blog/issues/1](https://github.com/grimmer0125/gatsby-blog/issues/1)
 
 ### Todo:
 1. Fix Catagories頁面跟相關bugs.
-2. 增進寫文章的rule, e.g. 拿掉上面的 `4.`及改善`3`, 有些可自動判斷.
+2. 改善寫文章所需的 `Metadata`的彈性. e.g. 有些可自動判斷, 像是 `title` 由 folder名稱自動抓取.
 
 ### Local Dev Run:
 
