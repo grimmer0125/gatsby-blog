@@ -1,5 +1,5 @@
 ---
-title: 'Answer Of Regular Expression Puzzle'
+title: 'Regular Expression Puzzle'
 date: "2016-08-12"
 layout: post
 tags:
@@ -7,5 +7,8 @@ tags:
 - Puzzle
 ---
 
-This puzzle is from MIT. And the blow is just a record that I have spent hours to do this puzzle.
+Puzzle:
+[http://jimbly.github.io/regex-crossword](http://jimbly.github.io/regex-crossword/)
+
+My answer
 ![My helpful screenshot](./puzzleAnswer.jpg)
