@@ -7,7 +7,7 @@ class Post extends React.Component {
   render() {
     const { title, date, category, description } = this.props.data.node.frontmatter;
     const { slug, categorySlug } = this.props.data.node.fields;
-
+    const excerpt = this.props.data.node.excerpt;
     return (
       <div className="post">
         <div className="post__meta">
@@ -24,8 +24,8 @@ class Post extends React.Component {
         <h2 className="post__title">
           <Link className="post__title-link" to={slug}>{title}</Link>
         </h2>
-        <p className="post__description">{description}</p>
-        {/* <Link className="post__readmore" to={slug}>Read</Link> */}
+        <p className="post__description">{description || excerpt}</p>
+        <Link className="post__readmore" to={slug}>Read</Link>
       </div>
     );
   }
