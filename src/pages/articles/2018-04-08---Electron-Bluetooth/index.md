@@ -1,7 +1,6 @@
 ---
 title: 'A list of Bluetooth API/Library for Electron Desktop Application'
 date: "2018-04-08"
-draft: false
 layout: post
 tags:
 - Bluetooth

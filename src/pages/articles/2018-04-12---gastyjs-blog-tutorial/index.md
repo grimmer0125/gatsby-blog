@@ -1,7 +1,6 @@
 ---
 title: 'How to write a Gatsby based blog'
 date: "2018-04-12"
-draft: false
 layout: post
 tags:
 - blog
