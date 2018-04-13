@@ -28,10 +28,11 @@ Gatsby 是 React + GraphQL based的網站/blog生成器. 可以用 React方式�
 
 1. 跟一般React不一樣, 進入點非index.html, Gatsby則是 `layouts/index.jsx` 跟 `pages/index.jsx`, 參考 [https://www.gatsbyjs.org/tutorial/part-three/#our-first-layout-component](https://www.gatsbyjs.org/tutorial/part-three/#our-first-layout-component), Gatsby使用了 [`react-router`](https://github.com/ReactTraining/react-router)
 2. Gatsby建議global style是用[typography](https://www.gatsbyjs.org/tutorial/part-two/#typographyjs), 它也可以搭其他的 css modules.  
-3. Markdown的部份的流程是, `gatsby develop` 會使用到 `gatsby-node.js`, 而在其中可以設定讓它使用gatsby的外掛把 Markdown files的資料轉成 GraphQL query data source (也可在`gatsby-node.js`插入一些資料). 而進而使用 `React High order component`的方式把資料傳到 `page-template.jsx`的React元件的props. 參考 [https://www.gatsbyjs.org/tutorial/part-six/](https://www.gatsbyjs.org/tutorial/part-six/).
-4. 一般在React裡使用GraphQL會看到如 https://github.com/apollographql/react-apollo 的 `export default graphql(gql` query content`)(TodoApp);` 這樣的`high order component`設定, 但`Gatsby`則省略了 `)(TodoApp);`, `gatsby develop` 會自動在runtime時補上.
-5. `Gatsby`是使用到Webpack, 故改完文章頁面會自動更新.
-6. `Gatsby` local dev時, 有起一個 GraphQL server, 故可使用 `GraphiQL` 去測試 每個頁面使用到 GraphQL query部份. ref:  https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql,
+3. Markdown的流程是, `gatsby develop` 會使用到 `gatsby-node.js`, 而在其中可以設定讓它使用gatsby的外掛把 Markdown files的資料轉成 GraphQL query data source (也可在`gatsby-node.js`插入一些資料). 而進而使用 `React High order component`的方式把資料傳到 `page-template.jsx`的React元件的props, 另外在`gatsby-node.js`也是動態新增此markdowm對應到的react page with url path, 參考 [https://www.gatsbyjs.org/tutorial/part-six/](https://www.gatsbyjs.org/tutorial/part-six/).
+4. Markdown另一個做法是直接手動在 `pages/` 下新增 react page 在再裡面使用 GraphQL query, 但這做法缺點是url path是固定的 (就是此react page js/jsx檔案的folder path). 參考 [https://www.gatsbyjs.org/tutorial/part-six/#transformer-plugins](https://www.gatsbyjs.org/tutorial/part-six/#transformer-plugins) 
+5. 一般在React裡使用GraphQL會看到如 https://github.com/apollographql/react-apollo 的 `export default graphql(gql` query content`)(TodoApp);` 這樣的`high order component`設定, 但`Gatsby`則省略了 `)(TodoApp);`, `gatsby develop` 會自動在runtime時補上.
+6. `Gatsby`是使用到Webpack, 故改完文章頁面會自動更新.
+7. `Gatsby` local dev時, 有起一個 GraphQL server, 故可使用 `GraphiQL` 去測試 每個頁面使用到 GraphQL query部份. ref:  https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql,
 7. deploy時則會先把 GraphQL的資料 bundle到static site裡, 無 GraphQL server.
 
 ### 其他可以考慮用的 blog template(starter)
