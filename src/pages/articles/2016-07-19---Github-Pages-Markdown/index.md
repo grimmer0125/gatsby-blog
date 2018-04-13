@@ -1,5 +1,5 @@
 ---
-title: '在GitHub Pages上撰寫Markdown文章的注意事項'
+title: 'Notes about writting Markdown Articles on GitHub Pages'
 date: "2016-07-19"
 layout: post
 tags:

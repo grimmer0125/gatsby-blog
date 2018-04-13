@@ -1,5 +1,5 @@
 ---
-title: wxwidget中的wxBufferedDC使用方法
+title: "How to use wxBufferedDC in wxwidget"
 date: '2009-07-29T15:49:00.003+08:00'
 layout: post
 tags:

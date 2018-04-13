@@ -1,5 +1,5 @@
 ---
-title: 'TypeScript的介紹'
+title: 'Introduction to TypeScript'
 date: "2018-03-31"
 layout: post
 tags:
@@ -24,7 +24,7 @@ TypeScript 一般可以由以下三者任一來設定, 所以有的project會沒
 ### 套件
 
 在Atom及VS Code上面安裝外掛增強 JavaScript IDE 開發功能 (沒有列linter部份):
-https://grimmer.io/atom-vscode-javascript-packages/
+https://grimmer.netlify.com/atom-vscode-javascript-packages/
 
 安裝TypeScript及其linter:
 npm install -g typescript tslint (需先安裝node/npm, 不需安裝eslint)

@@ -1,5 +1,5 @@
 ---
-title: c++ STL中的Deque使用
+title: "How to use Deque of C++ STL"
 date: '2009-07-29T14:08:00.001+08:00'
 tags:
 - c++

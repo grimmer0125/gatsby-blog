@@ -1,5 +1,5 @@
 ---
-title: 'GitHub Pages的分類以及使用Custom Domain'
+title: 'Introduction to GitHub Pages and use Custom Domain on it'
 date: "2016-08-10"
 layout: post
 tags:
