@@ -21,7 +21,7 @@ class Menu extends React.Component {
         ))}
         <Link to="/tags/" activeClassName="menu__list-item-link menu__list-item-link--active">Tags</Link>
         <br />
-        <a href="http://slides.com/teng-chiehkang/portfolio/fullscreen">Portfolio</a>
+        <a href="http://slides.com/grimmer/portfolio/fullscreen">Portfolio</a>
       </ul>
     );
 
