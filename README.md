@@ -23,6 +23,10 @@
 ### Building
 `gatsby build`
 
-### Deploy with Netlify
+### Connect Netlify to your GitHub account
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/grimmer0125/gatsby-blog" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+
+### Build and Deploy to GitHub Pages
+
+`npm run deploy`
