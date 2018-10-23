@@ -23,10 +23,16 @@
 ### Building
 `gatsby build`
 
-### Connect Netlify to your GitHub account
+### Deploy to Netlify 
+
+#### Connect Netlify to your GitHub account
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/grimmer0125/gatsby-blog" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
-### Build and Deploy to GitHub Pages
+#### Update changes to Netlify 
+
+Just `git push` to GitHub and it willl change accordingly.
+
+### Deploy to GitHub Pages
 
 `npm run deploy`
