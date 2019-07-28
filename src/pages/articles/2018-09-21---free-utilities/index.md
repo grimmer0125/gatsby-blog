@@ -17,3 +17,4 @@ They are a part of my [GitHub projects](https://github.com/grimmer0125)
 7. Web: [Medical DICOM Image Viewer](https://grimmer.io/dicom-web-viewer/), [Chrome extension ver.](https://chrome.google.com/webstore/detail/dicom-image-viewer/ehppmcooahfnlfhhcflpkcjmonkoindc)
 8. Web: [Full-text search your GitHub starred repositories](https://searchgithub.herokuapp.com/) Golang Server, Elasticsearch, Redis
 9. Web: [Taiwan house price chart with auto update](https://grimmer.io/Taiwan-house-price-chart/) Vue.js, Plotly (built on top of D3.js and stack.gl), Amazon AWS's Lambda, Google's Firebase
+10. Chrome: [Auto Show Dropbox Paper Table Of Content]( https://chrome.google.com/webstore/detail/paper-auto-show-toc/eifkjfleeeochflgobmibofbcdiledng)
